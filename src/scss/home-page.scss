@@ -1,0 +1,487 @@
+.home-tabs {
+    /* .home-tabs__container */
+
+    &__container {
+        margin-top: rem(27);
+        margin-bottom: rem(94);
+        @media (max-width: em(1150)) {
+            margin-bottom: rem(50);
+        }
+        @media (max-width: $mobile) {
+            margin-bottom: rem(20);
+        }
+    }
+
+    /* .home-tabs__body */
+
+    &__body {
+    }
+}
+.body-tabs-home {
+    position: relative;
+
+    @media (max-width: $mobile) {
+        position: static;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .body-tabs-home__navigation */
+
+    &__navigation {
+        position: absolute;
+        z-index: 33;
+        right: 20px;
+        top: 27px;
+        order: 2;
+        @media (max-width: $mobile) {
+            position: static;
+        }
+    }
+
+    /* .body-tabs-home__title */
+
+    &__title {
+        padding: rem(20);
+        background-color: #fff;
+        color: #fff;
+        border-radius: 10px;
+        font-family: Inter;
+        font-weight: 400;
+        font-size: rem(16);
+        line-height: 19px;
+        letter-spacing: 0px;
+        text-align: center;
+        border: 1px solid #eb3349;
+        color: #eb3349;
+        padding-left: rem(12.5);
+        padding-right: rem(12.5);
+    }
+
+    /* .body-tabs-home__content */
+
+    &__content {
+        height: 670px;
+        width: 100%;
+        order: 1;
+        border-radius: 10px;
+        overflow: hidden;
+        @media (max-width: $mobile) {
+            height: 400px;
+            margin-bottom: rem(10);
+        }
+        @media (max-width: $mobileSmall) {
+            height: 205px;
+        }
+    }
+
+    /* .body-tabs-home__body */
+
+    &__body {
+    }
+}
+
+.body-tabs-home__title._tab-active {
+    background-color: #eb3349;
+    color: #fff;
+}
+
+.body-home-tabs-item {
+    height: 100%;
+    width: 100%;
+    /* .body-home-tabs-item__img */
+
+    &__img {
+    }
+}
+
+.estimate {
+    /* .estimate__container */
+
+    &__container {
+    }
+
+    /* .estimate__body */
+
+    &__body {
+        margin-bottom: rem(77);
+        margin-bottom: rem(43);
+    }
+}
+.body-estimate {
+    display: flex;
+    flex-direction: column;
+    padding: 0px rem(41);
+
+    @media (max-width: em(950)) {
+        padding: 0px;
+    }
+    /* .body-estimate__parameters */
+
+    &__parameters {
+        margin-bottom: rem(18);
+    }
+
+    /* .body-estimate__button */
+
+    &__button {
+        width: fit-content;
+        align-self: flex-end;
+        padding: rem(20);
+        @media (max-width: em(950)) {
+            width: 100%;
+            font-size: rem(18);
+            padding-left: rem(16.5);
+            padding-right: rem(16.5);
+        }
+    }
+}
+.parameters-estimate-body {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    justify-content: space-between;
+
+    /* .parameters-estimate-body__parametr */
+
+    &__parametr {
+    }
+}
+.parametr-body-estimate-parameters {
+    flex: 0 1 40%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: rem(17);
+
+    border-bottom: #d9d9d9 1px solid;
+
+    padding-bottom: rem(18);
+
+    @media (max-width: em(959)) {
+        flex: 0 1 100%;
+        padding-bottom: rem(4);
+    }
+
+    /* .parametr-body-estimate-parameters__name */
+
+    &__name {
+        color: #414141;
+        font-family: Inter;
+        font-size: rem(16);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    /* .parametr-body-estimate-parameters__value */
+
+    &__value {
+        color: #414141;
+        text-align: right;
+        font-family: Inter;
+        font-size: rem(16);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.materials {
+    /* .materials__container */
+
+    &__container {
+    }
+
+    /* .materials__body */
+
+    &__body {
+        margin-bottom: rem(75);
+        @media (max-width: $mobile) {
+            margin-bottom: rem(20);
+        }
+    }
+}
+.body-materials {
+    /* .body-materials__title */
+
+    &__title {
+        margin-bottom: rem(40);
+        @media (max-width: $mobile) {
+            margin-bottom: rem(20);
+            font-size: rem(24);
+        }
+    }
+
+    /* .body-materials__text */
+
+    &__text {
+    }
+}
+.red-first-letter {
+}
+.text-materials-body {
+    color: #000;
+    font-family: Inter;
+    font-size: rem(24);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.construction-cost {
+    /* .construction-cost__container */
+
+    &__container {
+        margin-bottom: rem(75);
+        @media (max-width: $mobile) {
+            margin-bottom: rem(36);
+        }
+    }
+
+    /* .construction-cost__body */
+
+    &__body {
+    }
+}
+.body-cost-construction {
+    /* .body-cost-construction__title */
+
+    &__title {
+        margin-bottom: rem(22);
+        @media (max-width: $mobile) {
+            font-size: rem(24);
+        }
+    }
+
+    /* .body-cost-construction__spoller */
+
+    &__spoller {
+    }
+}
+.red-first-letter {
+}
+.spoller-construction-cost-body {
+    /* .spoller-construction-cost-body__spollers */
+
+    &__spollers {
+    }
+
+    /* .spoller-construction-cost-body__item */
+
+    &__item {
+    }
+
+    /* .spoller-construction-cost-body__title */
+
+    &__title {
+        color: #353535;
+        font-family: Inter;
+        font-size: rem(20);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        &::before {
+            content: "";
+            background-color: #fff !important;
+        }
+        &::after {
+            content: "";
+            background-color: #fff !important;
+        }
+    }
+
+    /* .spoller-construction-cost-body__body */
+
+    &__body {
+        color: #353535;
+        font-family: Inter;
+        font-size: rem(16);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.construction-cost {
+    /* .construction-cost__container */
+
+    &__container {
+    }
+
+    /* .construction-cost__body */
+
+    &__body {
+    }
+}
+.body-cost-construction {
+    /* .body-cost-construction__title */
+
+    &__title {
+    }
+
+    /* .body-cost-construction__spoller */
+
+    &__spoller {
+    }
+}
+.red-first-letter {
+}
+.spoller-construction-cost-body {
+    /* .spoller-construction-cost-body__spollers */
+
+    &__spollers {
+    }
+
+    /* .spoller-construction-cost-body__item */
+
+    &__item {
+    }
+
+    /* .spoller-construction-cost-body__title */
+
+    &__title {
+    }
+
+    /* .spoller-construction-cost-body__body */
+
+    &__body {
+    }
+}
+.spollers {
+    /* .spollers__item */
+
+    &__item {
+    }
+
+    /* .spollers__title */
+
+    &__title {
+    }
+
+    /* .spollers__body */
+
+    &__body {
+    }
+}
+.title-body-cost-construction-spoller {
+    display: flex;
+    /* .title-body-cost-construction-spoller__left */
+
+    &__left {
+    }
+
+    /* .title-body-cost-construction-spoller__right */
+
+    &__right {
+        position: absolute;
+        right: 0.7%;
+        background-color: #eb3349;
+        height: 30px;
+        width: 30px;
+        border-radius: 6px;
+    }
+}
+
+._spoller-init .spollers__title::before,
+._spoller-init .spollers__title::after {
+    z-index: 333;
+    right: 22%;
+}
+
+.construction-cost {
+    /* .construction-cost__container */
+
+    &__container {
+    }
+
+    /* .construction-cost__body */
+
+    &__body {
+    }
+}
+.body-cost-construction {
+    /* .body-cost-construction__title */
+
+    &__title {
+    }
+
+    /* .body-cost-construction__spoller */
+
+    &__spoller {
+    }
+}
+.red-first-letter {
+}
+.spoller-construction-cost-body {
+    /* .spoller-construction-cost-body__spollers */
+
+    &__spollers {
+    }
+
+    /* .spoller-construction-cost-body__item */
+
+    &__item {
+    }
+
+    /* .spoller-construction-cost-body__title */
+
+    &__title {
+    }
+
+    /* .spoller-construction-cost-body__body */
+
+    &__body {
+    }
+}
+
+.title-body-cost-construction-spoller {
+    /* .title-body-cost-construction-spoller__left */
+
+    &__left {
+    }
+
+    /* .title-body-cost-construction-spoller__right */
+
+    &__right {
+    }
+}
+.body-body-cost-construction-spoller {
+    padding: rem(20) rem(60) rem(20) rem(60);
+
+    @media (max-width: $mobile) {
+        padding: rem(16) rem(20) rem(16) rem(20);
+    }
+    /* .body-body-cost-construction-spoller__title */
+
+    &__title {
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: rem(20);
+        line-height: 24px;
+        letter-spacing: 0;
+        text-align: left;
+        text-transform: uppercase;
+        margin-bottom: rem(16);
+    }
+
+    /* .body-body-cost-construction-spoller__text */
+
+    &__text {
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: rem(16);
+        line-height: 19px;
+        letter-spacing: 0;
+        text-align: left;
+    }
+}
+
+.spoller-construction-cost-body__title ._spoller-init .spollers__title::before {
+    top: 57px !important;
+}
+.title-body-cost-construction-spoller::before {
+    right: 0.95% !important;
+}
+.title-body-cost-construction-spoller::after {
+    right: 0.95% !important;
+}

@@ -1,0 +1,130 @@
+.contact {
+    /* .contact__container */
+
+    &__container {
+        margin-top: rem(22);
+        margin-bottom: rem(46);
+    }
+
+    /* .contact__body */
+
+    &__body {
+    }
+}
+.body-contact {
+    display: flex;
+    @media (max-width: $mobile) {
+        flex-direction: column;
+    }
+    /* .body-contact__wrap-left */
+
+    &__wrap-left {
+        flex: 0 1 44%;
+
+        @media (max-width: $mobile) {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: rem(32);
+        }
+    }
+
+    /* .body-contact__wrap-right */
+
+    &__wrap-right {
+        flex: 0 1 56%;
+        margin-top: rem(28);
+        @media (max-width: $mobile) {
+            flex: 1;
+            margin-top: 0px;
+        }
+    }
+
+    /* .body-contact__title */
+
+    &__title {
+        margin-bottom: rem(16);
+    }
+
+    /* .body-contact__adress */
+
+    &__adress {
+        color: #353535;
+        font-family: Inter;
+        font-size: rem(20);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: rem(56);
+    }
+
+    /* .body-contact__wrap-tel-time */
+
+    &__wrap-tel-time {
+        margin-bottom: rem(41);
+        color: #353535;
+        font-family: Inter;
+        font-size: rem(20);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+.red-first-letter {
+}
+.time-tel-wrap-contact-body {
+    /* .time-tel-wrap-contact-body__tel */
+
+    &__tel {
+    }
+
+    /* .time-tel-wrap-contact-body__time */
+
+    &__time {
+    }
+
+    /* .time-tel-wrap-contact-body__email */
+
+    &__email {
+        margin-bottom: rem(46);
+        color: #353535;
+        font-family: Inter;
+        font-size: rem(20);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    /* .time-tel-wrap-contact-body__icons */
+
+    &__icons {
+        align-self: center;
+    }
+}
+.icons-body-contact-wrap-tel-time {
+    display: flex;
+    gap: 34px;
+
+    /* .icons-body-contact-wrap-tel-time__icon */
+
+    &__icon {
+        border-radius: 8px;
+        border: 1px solid #eb3349;
+        padding: rem(24);
+        background: #fff;
+        // icons-body-contact-wrap-tel-time__icon_red
+        &_red {
+            background-color: #eb3349;
+        }
+    }
+}
+.icon-time-tel-wrap-contact-body-icons {
+    /* .icon-time-tel-wrap-contact-body-icons__img */
+
+    &__img {
+    }
+}
+
+.wrap-right-contact-body img {
+    width: 100%;
+}

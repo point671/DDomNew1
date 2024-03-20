@@ -1,0 +1,40 @@
+.about__slider {
+    margin: 0 -50px 0 26.736% !important;
+    margin-bottom: 42px !important;
+    @media (max-width: $mobile) {
+        margin: 0px auto !important;
+        margin-left: 20px !important;
+        margin-bottom: 42px !important;
+    }
+}
+
+.engineering-communication-content .swiper-autoheight,
+.engineering-communication-content .swiper-autoheight .swiper-slide {
+    height: auto !important;
+}
+
+.slide-about__img {
+    width: 100%;
+}
+
+.about__slider {
+    height: auto !important;
+}
+
+.engineering-communication-content .swiper-autoheight,
+.engineering-communication-content .swiper-autoheight .swiper-slide {
+    @media (max-width: $mobile) {
+        height: 350px !important;
+    }
+}
+
+.engineering-communication-content__container_about {
+    margin-top: rem(22);
+}
+
+.about__wrapper {
+    height: 500px !important;
+    @media (max-width: $mobile) {
+        height: 200px !important;
+    }
+}

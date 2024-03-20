@@ -1,0 +1,64 @@
+.body-doc-develop__content_one-block {
+    padding-top: rem(153);
+    padding-bottom: rem(153);
+    @media (max-width: $mobile) {
+        margin-left: rem(12);
+    }
+}
+
+.red-first-letter:first-letter {
+    color: #eb3349;
+}
+.red-first-letter {
+    color: #353535;
+    font-family: Inter;
+    font-size: rem(32);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.engineering-communication-content {
+    /* .engineering-communication-content__container */
+
+    &__container {
+        margin-bottom: rem(46);
+        @media (max-width: $mobile) {
+            margin-bottom: rem(27);
+        }
+    }
+
+    /* .engineering-communication-content__body */
+
+    &__body {
+    }
+}
+.body-content-communication-engineering {
+    /* .body-content-communication-engineering__text */
+
+    &__text {
+        color: #353535;
+        font-family: Inter;
+        font-size: rem(16);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-bottom: rem(42);
+        @media (max-width: $mobile) {
+            font-size: rem(14);
+            padding-bottom: rem(20);
+        }
+    }
+    &__text:last-child {
+        padding-bottom: 0px;
+    }
+
+    /* .body-content-communication-engineering__title */
+
+    &__title {
+        margin-bottom: rem(20);
+        @media (max-width: $mobile) {
+            font-size: rem(24);
+        }
+    }
+}

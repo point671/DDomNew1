@@ -1,0 +1,37 @@
+.red-button_design-and-reconstruction {
+    width: fit-content;
+    margin: 0 auto;
+    @media (max-width: $mobile) {
+        width: 100%;
+    }
+}
+
+.content-develop-doc-body__cell_design-and-reconstruction {
+    @media (max-width: $mobile) {
+        font-size: rem(28);
+    }
+}
+.bg-develop-doc-body__img_design-and-reconstruction {
+    object-position: 3% 77%;
+}
+.block__more {
+    display: none;
+    justify-content: center;
+    width: 100%;
+    text-decoration: underline;
+    color: rgb(53, 53, 53);
+    font-family: Inter;
+    font-size: rem(14);
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-bottom: rem(30);
+    cursor: pointer;
+    margin-top: rem(5);
+
+    @media (max-width: $mobile) {
+        display: flex;
+    }
+}

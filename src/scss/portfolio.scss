@@ -1,0 +1,131 @@
+.portfolio {
+    /* .portfolio__container */
+
+    &__container {
+        margin-bottom: rem(40);
+    }
+
+    /* .portfolio__body */
+
+    &__body {
+    }
+}
+.body-portfolio {
+    /* .body-portfolio__items */
+
+    &__items {
+    }
+}
+.items-portfolio-body {
+    /* .items-portfolio-body__item */
+
+    &__item {
+        margin-top: rem(22);
+        @media (max-width: $mobile) {
+            margin-bottom: rem(36);
+        }
+    }
+}
+.item-body-portfolio-items {
+    display: flex;
+    // justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+
+    column-gap: 24px;
+    row-gap: 20px;
+    @media (max-width: $mobile) {
+        column-gap: 15px;
+        row-gap: 33px;
+    }
+
+    /* .item-body-portfolio-items__gallery */
+
+    &__gallery {
+        @media (max-width: em(950)) {
+        }
+    }
+    // .item-body-portfolio-items__title
+
+    &__title {
+        font-family: Inter;
+        font-weight: 700;
+        font-size: rem(20);
+        line-height: 24px;
+        letter-spacing: 0;
+        text-align: left;
+        color: #fff;
+        position: absolute;
+
+        left: 20px;
+
+        @media (max-width: 1132px) {
+            font-size: rem(16);
+        }
+        @media (max-width: 1002px) {
+        }
+    }
+
+    /* .item-body-portfolio-items__image */
+
+    &__image {
+        display: flex;
+        padding-bottom: rem(20);
+        align-items: flex-end;
+        border-radius: 10px;
+        overflow: hidden;
+        // .item-body-portfolio-items__image_main
+        &_main {
+            grid-area: main;
+        }
+    }
+
+    /* .item-body-portfolio-items__preview */
+
+    &__preview {
+        // .item-body-portfolio-items__preview_main
+        &_main {
+            grid-area: main;
+        }
+    }
+}
+
+.item-body-portfolio-items__gallery {
+    flex: 0 1 48%;
+    display: grid;
+    grid-auto-columns: 1fr;
+
+    grid-template-columns: minmax(65px, 200px) minmax(65px, 200px) minmax(65px, 200px);
+
+    grid-template-rows: 332px 113px;
+    gap: 20px 15px;
+    @media (max-width: em(1232)) {
+        grid-template-rows: 300px 80px;
+    }
+    @media (max-width: em(1024)) {
+        grid-template-rows: 250px 80px;
+    }
+    @media (max-width: em(950)) {
+        flex: 0 1 47%;
+        gap: 10px 15px;
+    }
+
+    @media (max-width: $mobile) {
+        grid-template-rows: 226px 80px;
+        flex: 1;
+    }
+    grid-template-areas:
+        "main main main"
+        ". . .";
+}
+
+.gallery__image {
+}
+.items-portfolio-body__load-more {
+    display: none;
+
+    @media (max-width: $mobile) {
+        display: block;
+        margin-bottom: rem(36);
+    }
+}

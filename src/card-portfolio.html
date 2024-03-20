@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Главная"
+})
+
+
+<body>
+    <div class="wrapper">
+        @@include('html/_header.htm',{})
+        <main class="page">
+
+
+
+
+            <section class="portfolio">
+                <div class="portfolio__container">
+                    <div class="portfolio__body body-portfolio">
+                        <a class="body-portfolio__to-portfolio to-portfolio-portfolio-body">
+                            <img src="@img/card-portfolio/icon-back-portfolio.svg" alt="">
+                            <div class="to-portfolio-portfolio-body__text">
+                                К портфолио
+                            </div>
+
+                        </a>
+
+                        <div class="body-portfolio__items items-portfolio-body">
+                            <div
+                                class="items-portfolio-body__item items-portfolio-body__item_card-portfolio item-body-portfolio-items">
+                                <div data-gallery
+                                    class="gallery item-body-portfolio-items__gallery item-body-portfolio-items__gallery_arr">
+                                    <a href="img/card-portfolio/f1.jpg"
+                                        class="gallery__image item-body-portfolio-items__image item-body-portfolio-items__image_main -ibg">
+                                        <img alt="Превью" src="img/card-portfolio/f1.jpg"
+                                            class="gallery__preview item-body-portfolio-items__preview">
+                                        <div class="item-body-portfolio-items__button-card-portfolio">
+                                            Узнать стоимость
+                                        </div>
+                                    </a>
+                                </div>
+                                <div data-gallery
+                                    class="gallery item-body-portfolio-items__gallery item-body-portfolio-items__gallery_arr">
+                                    <a href="img/card-portfolio/f2.jpg"
+                                        class="gallery__image item-body-portfolio-items__image item-body-portfolio-items__image_main -ibg">
+                                        <img alt="Превью" src="img/card-portfolio/f2.jpg"
+                                            class="gallery__preview item-body-portfolio-items__preview">
+                                    </a>
+                                </div>
+                                <div data-gallery
+                                    class="gallery item-body-portfolio-items__gallery item-body-portfolio-items__gallery_arr">
+                                    <a href="img/card-portfolio/f3.jpg"
+                                        class="gallery__image item-body-portfolio-items__image item-body-portfolio-items__image_main -ibg">
+                                        <img alt="Превью" src="img/card-portfolio/f3.jpg"
+                                            class="gallery__preview item-body-portfolio-items__preview">
+                                    </a>
+                                </div>
+                                <div data-gallery
+                                    class="gallery item-body-portfolio-items__gallery item-body-portfolio-items__gallery_arr">
+                                    <a href="img/home-page/photo-home.jpg"
+                                        class="gallery__image item-body-portfolio-items__image item-body-portfolio-items__image_main -ibg">
+                                        <img alt="Превью" src="img/home-page/photo-home.jpg"
+                                            class="gallery__preview item-body-portfolio-items__preview">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+        </main>
+        @@include('html/_footer.htm',{})
+    </div>
+    @@include('html/_popup.htm',{})
+    @@include('html/_js.htm',{})
+</body>
+
+</html>
